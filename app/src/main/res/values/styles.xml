@@ -1,0 +1,101 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="horizontal_slide" parent="android:Theme.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/AnimFade2</item>
+    </style>
+
+    <style name="bg_btn_home_style" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/bg_btn_home</item>
+        <item name="android:textColor">@drawable/text_color</item>
+    </style>
+
+    <style name="bg_btn_store_style" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/bg_btn_store</item>
+        <item name="android:textColor">@drawable/text_color</item>
+    </style>
+
+    <style name="bg_btn_order_style" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/bg_btn_order</item>
+        <item name="android:textColor">@drawable/text_color</item>
+    </style>
+
+    <style name="bg_btn_mine_style" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/bg_btn_mine</item>
+        <item name="android:textColor">@drawable/text_color</item>
+    </style>
+
+    <style name="AnimFade2" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_to_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_to_right</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_from_left</item>
+    </style>
+
+    <style name="PopupWindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/popshow_anim</item>
+        <item name="android:windowExitAnimation">@anim/pophidden_anim</item>
+    </style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="view_line_horizontal">
+        <item name="android:background">@color/divider</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+
+    <style name="view_line_horizontal1">
+        <item name="android:background">@color/bg_grey</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">10.0dip</item>
+    </style>
+
+    <style name="view_line_horizontal2">
+        <item name="android:background">#DFDFDF</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+
+    <style name="view_line_horizontal3">
+        <item name="android:background">#D2D2D2</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.8dip</item>
+    </style>
+    <!--支付密码相关-->
+    <style name="GridPasswordView" />
+
+    <style name="GridPasswordView.TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="GridPasswordView.EditText" parent="GridPasswordView.TextView">
+        <item name="android:cursorVisible">false</item>
+    </style>
+
+    <style name="GridPasswordView.Divider">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+    </style>
+
+</resources>

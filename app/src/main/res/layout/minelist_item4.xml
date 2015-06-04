@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_mineLogin"
+        android:layout_width="match_parent"
+        android:layout_height="150.0dip"
+        android:background="#E0F4F4"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/yt_tv_loginState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zs_unlogined" />
+
+        <Button
+            android:id="@+id/yb_btn_mineTologin"
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_btn_unlogined"
+            android:text="@string/zs_clicklogin"
+            android:textColor="@color/zc_green"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

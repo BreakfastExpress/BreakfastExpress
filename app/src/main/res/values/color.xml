@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="zc_green">#01978E</color>
+    <color name="popup_main_background">#b0000000</color>
+    <color name="black">#000000</color>
+    <color name="choose_eara_item_press_color">#f4f4f4</color>
+    <color name="white">#ffffff</color>
+    <color name="no_color">#00000000</color>
+    <color name="bg_grey">#FAFAFA</color>
+    <color name="divider">#E6E6E6</color>
+    <color name="font_list">#666</color>
+    <color name="title">#F18D00</color>
+
+</resources>

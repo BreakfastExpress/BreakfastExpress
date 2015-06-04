@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">早点点</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="zs_unlogined">您还没有登录</string>
+    <string name="zs_clicklogin">点击登录</string>
+    <string name="zs_balance">账户余额</string>
+    <string name="zs_start">现在开始</string>
+    <string name="no_data">没有数据</string>
+
+</resources>

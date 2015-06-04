@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/view_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:id="@+id/id_mainview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="@color/divider" />
+
+    <include
+        layout="@layout/view_buttom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <!--     <fragment
+            android:id="@+id/id_left_menu"
+            android:name="com.yuejiajun.zdd.fragment.MenuLeftFragment"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:tag="LEFT" /> -->
+
+</LinearLayout>

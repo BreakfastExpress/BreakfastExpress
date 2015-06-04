@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_title" />
+
+    <View
+        style="@style/view_line_horizontal"
+        android:layout_marginTop="15dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_myMobile"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:background="@drawable/item_clicked"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="手机号码"
+            android:textColor="#666"
+            android:textSize="16.0sp" />
+
+        <TextView
+            android:id="@+id/tv_myMobile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:singleLine="true"
+            android:textColor="#666"
+            android:textSize="16.0sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/next" />
+    </LinearLayout>
+
+    <View style="@style/view_line_horizontal" />
+    <!-- 姓名 -->
+
+    <LinearLayout
+        android:id="@+id/ll_name"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:background="@drawable/item_clicked"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="姓名"
+            android:textColor="#666"
+            android:textSize="16.0sp" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:singleLine="true"
+            android:textColor="#666"
+            android:textSize="16.0sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/next" />
+    </LinearLayout>
+
+    <View style="@style/view_line_horizontal" />
+    <!-- 用户名 -->
+
+    <LinearLayout
+        android:id="@+id/ll_userName"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:background="@drawable/item_clicked"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="用户名"
+            android:textColor="#666"
+            android:textSize="16.0sp" />
+
+        <TextView
+            android:id="@+id/tv_userName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:singleLine="true"
+            android:textColor="#666"
+            android:textSize="16.0sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/next" />
+    </LinearLayout>
+
+    <View style="@style/view_line_horizontal" />
+
+    <View style="@style/view_line_horizontal1" />
+
+    <View style="@style/view_line_horizontal" />
+    <!-- 修改密码 -->
+
+    <LinearLayout
+        android:id="@+id/ll_changePassword"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:background="@drawable/item_clicked"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="修改密码"
+            android:textColor="#666"
+            android:textSize="16.0sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/next" />
+    </LinearLayout>
+
+    <View style="@style/view_line_horizontal" />
+
+    <Button
+        android:id="@+id/btn_unlogined"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dip"
+        android:layout_margin="15dp"
+        android:background="@drawable/bg_btn_login"
+        android:text="退 出 登 录"
+        android:textColor="@color/white" />
+
+</LinearLayout>
